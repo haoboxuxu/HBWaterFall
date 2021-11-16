@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HBWaterFall_Example' do
+  pod 'HBWaterFall', :path => '../'
+
+  target 'HBWaterFall_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
