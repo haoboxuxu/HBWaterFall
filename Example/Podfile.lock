@@ -1,0 +1,16 @@
+PODS:
+  - HBWaterFall (0.1.0)
+
+DEPENDENCIES:
+  - HBWaterFall (from `../`)
+
+EXTERNAL SOURCES:
+  HBWaterFall:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBWaterFall: d103b1822836cf02aff05449488aa9603cc38753
+
+PODFILE CHECKSUM: 21a034ceb645a5f16cdd154b01a984a343652ae3
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module Pods_HBWaterFall_Example {
+  umbrella header "Pods-HBWaterFall_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

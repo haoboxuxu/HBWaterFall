@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3181074511B0D915FA86397BDA1A8C68 /* Pods-HBWaterFall_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F9F9676C13D1323E1F4886A09114A8 /* Pods-HBWaterFall_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31FC59E3B620A33274257957B4B0039C /* Pods-HBWaterFall_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6C25AA2BA95A3669ADEF20E6C8E5A /* Pods-HBWaterFall_Example-dummy.m */; };
+		39BA1DFA2C87D9009FE9F64C7C7BD01F /* HBWaterFall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F2CC79FF770543C5D897D451BC7134 /* HBWaterFall-dummy.m */; };
+		5D72A5AE108150CCF28FF04F8F51B80A /* Pods-HBWaterFall_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 784D978A839CAD9D59ACA125236E9664 /* Pods-HBWaterFall_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E217085E22D7B9C5101885AE582E208 /* HBWaterFall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A7A35CAE3C9ADF57EB9A10C5316F5C /* HBWaterFall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A989A0116752807B706A8026AF65CFBB /* Pods-HBWaterFall_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA58725716DD21F554943BDE6A9FC33 /* Pods-HBWaterFall_Tests-dummy.m */; };
+		C2D906D4FA6923E4E1719C7974F560B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D857D6922743FBA0004DF8C2 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857D6912743FBA0004DF8C2 /* Delegate.swift */; };
+		D857D6942743FBBD004DF8C2 /* HBWaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857D6932743FBBD004DF8C2 /* HBWaterFallLayout.swift */; };
+		D857D6962743FBD1004DF8C2 /* HBWaterFallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857D6952743FBD1004DF8C2 /* HBWaterFallView.swift */; };
+		EF13054FF1B5C5A22CA4506DB6CAF58C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FC74677FB8DD882F3915D5E31F41A771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A443881E0AB2BB84508C6AD0E35386D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA15916DEB8DDEE3B5CFED6FB31ABF42;
+			remoteInfo = "Pods-HBWaterFall_Example";
+		};
+		CBC30C6C58ADB3578AD8D5AFAB5CCC3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4707E2CAD9D89CE3846E94C5A2A88283;
+			remoteInfo = HBWaterFall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07EB1C9A990445496FACAABB151EC82A /* Pods-HBWaterFall_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBWaterFall_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0C0B79220AB75D575751E435E8DA9F54 /* Pods-HBWaterFall_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBWaterFall_Example-frameworks.sh"; sourceTree = "<group>"; };
+		23F3894802137D629CEDF72BA23C44CF /* Pods-HBWaterFall_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HBWaterFall_Example"; path = Pods_HBWaterFall_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		295234B407140FED78FE6F74DC97E739 /* Pods-HBWaterFall_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBWaterFall_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31F2CC79FF770543C5D897D451BC7134 /* HBWaterFall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBWaterFall-dummy.m"; sourceTree = "<group>"; };
+		37A7A35CAE3C9ADF57EB9A10C5316F5C /* HBWaterFall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBWaterFall-umbrella.h"; sourceTree = "<group>"; };
+		39EE577B3E658DEDA293EDACB87E7A0A /* HBWaterFall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBWaterFall.modulemap; sourceTree = "<group>"; };
+		3E02A910D1572B65D45B1E9201312053 /* HBWaterFall-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBWaterFall-Info.plist"; sourceTree = "<group>"; };
+		3FE5F40598FF4DA327180150E23239B2 /* Pods-HBWaterFall_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBWaterFall_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40F9F9676C13D1323E1F4886A09114A8 /* Pods-HBWaterFall_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBWaterFall_Example-umbrella.h"; sourceTree = "<group>"; };
+		43EF465E4D1173C9AB8A7B491E8FB8A8 /* Pods-HBWaterFall_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HBWaterFall_Tests"; path = Pods_HBWaterFall_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		468028F15DF1569A601E7DADAF611C2E /* HBWaterFall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBWaterFall.release.xcconfig; sourceTree = "<group>"; };
+		47393235268F40524C9B517EDC9E08FE /* Pods-HBWaterFall_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBWaterFall_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4807D268239B32C9E5B28AF63076586A /* Pods-HBWaterFall_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBWaterFall_Tests-Info.plist"; sourceTree = "<group>"; };
+		5278D66312B21EA3E124C9E6E1860328 /* HBWaterFall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBWaterFall.debug.xcconfig; sourceTree = "<group>"; };
+		5DE6C25AA2BA95A3669ADEF20E6C8E5A /* Pods-HBWaterFall_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBWaterFall_Example-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		784D978A839CAD9D59ACA125236E9664 /* Pods-HBWaterFall_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBWaterFall_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7EFB77045EFA7A234BC9078E564137A6 /* Pods-HBWaterFall_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBWaterFall_Example.release.xcconfig"; sourceTree = "<group>"; };
+		816D9B32B4FEE252DB9C1FF1059C81C4 /* Pods-HBWaterFall_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBWaterFall_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		868366DFDF8E9748573605F2D5A2D353 /* HBWaterFall.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HBWaterFall.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C5F6D06AF8ECFBC2A7303EB13DBE67F /* Pods-HBWaterFall_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBWaterFall_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9515E767CE490C17F5EE6CF6CFAEE497 /* HBWaterFall-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBWaterFall-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E63D51CC58BFAD5612CDA303EA02421 /* Pods-HBWaterFall_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBWaterFall_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A12022B0340D4144E1017ED2D4517E1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A19A44AB4A4FBECA03078029E066EAF1 /* HBWaterFall */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBWaterFall; path = HBWaterFall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA19C00ADED276A620F36A43378D614 /* Pods-HBWaterFall_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBWaterFall_Tests.modulemap"; sourceTree = "<group>"; };
+		AEA58725716DD21F554943BDE6A9FC33 /* Pods-HBWaterFall_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBWaterFall_Tests-dummy.m"; sourceTree = "<group>"; };
+		CE0242EC689644D22B30138BAE80AF1E /* Pods-HBWaterFall_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBWaterFall_Example.modulemap"; sourceTree = "<group>"; };
+		D857D6912743FBA0004DF8C2 /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = HBWaterFall/Classes/Delegate.swift; sourceTree = "<group>"; };
+		D857D6932743FBBD004DF8C2 /* HBWaterFallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HBWaterFallLayout.swift; path = HBWaterFall/Classes/HBWaterFallLayout.swift; sourceTree = "<group>"; };
+		D857D6952743FBD1004DF8C2 /* HBWaterFallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HBWaterFallView.swift; path = HBWaterFall/Classes/HBWaterFallView.swift; sourceTree = "<group>"; };
+		D8E87C3CD95DE02EDF9AE8C65125A1F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F0029E65112D289DF037084BB28D4CA4 /* Pods-HBWaterFall_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBWaterFall_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB72817D79F7131D2575EE898D4E4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D906D4FA6923E4E1719C7974F560B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8180A0FD70260BCCB77337AFC0890095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF13054FF1B5C5A22CA4506DB6CAF58C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2628D3B5DEF15E882A61B5BB3DA33A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC74677FB8DD882F3915D5E31F41A771 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9ADD9D97FC315C7B14C0497062881B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B69D95464E1FF67E0166BA844A0A8C96 /* Pods-HBWaterFall_Example */,
+				BDAC95CB02E54E5F87C401575233C15F /* Pods-HBWaterFall_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B92F0D7FDB895CD4BD3B58570B35004 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39EE577B3E658DEDA293EDACB87E7A0A /* HBWaterFall.modulemap */,
+				31F2CC79FF770543C5D897D451BC7134 /* HBWaterFall-dummy.m */,
+				3E02A910D1572B65D45B1E9201312053 /* HBWaterFall-Info.plist */,
+				9515E767CE490C17F5EE6CF6CFAEE497 /* HBWaterFall-prefix.pch */,
+				37A7A35CAE3C9ADF57EB9A10C5316F5C /* HBWaterFall-umbrella.h */,
+				5278D66312B21EA3E124C9E6E1860328 /* HBWaterFall.debug.xcconfig */,
+				468028F15DF1569A601E7DADAF611C2E /* HBWaterFall.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HBWaterFall";
+			sourceTree = "<group>";
+		};
+		97DE06692863735D65516A01D5ACFDDD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B385BFFE3FB9636E31A0B159A87B31F2 /* HBWaterFall */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B385BFFE3FB9636E31A0B159A87B31F2 /* HBWaterFall */ = {
+			isa = PBXGroup;
+			children = (
+				D857D6912743FBA0004DF8C2 /* Delegate.swift */,
+				D857D6932743FBBD004DF8C2 /* HBWaterFallLayout.swift */,
+				D857D6952743FBD1004DF8C2 /* HBWaterFallView.swift */,
+				D1B17EF2E871B622D46AFECA16EEC5A8 /* Pod */,
+				5B92F0D7FDB895CD4BD3B58570B35004 /* Support Files */,
+			);
+			name = HBWaterFall;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B69D95464E1FF67E0166BA844A0A8C96 /* Pods-HBWaterFall_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CE0242EC689644D22B30138BAE80AF1E /* Pods-HBWaterFall_Example.modulemap */,
+				295234B407140FED78FE6F74DC97E739 /* Pods-HBWaterFall_Example-acknowledgements.markdown */,
+				9E63D51CC58BFAD5612CDA303EA02421 /* Pods-HBWaterFall_Example-acknowledgements.plist */,
+				5DE6C25AA2BA95A3669ADEF20E6C8E5A /* Pods-HBWaterFall_Example-dummy.m */,
+				0C0B79220AB75D575751E435E8DA9F54 /* Pods-HBWaterFall_Example-frameworks.sh */,
+				F0029E65112D289DF037084BB28D4CA4 /* Pods-HBWaterFall_Example-Info.plist */,
+				40F9F9676C13D1323E1F4886A09114A8 /* Pods-HBWaterFall_Example-umbrella.h */,
+				07EB1C9A990445496FACAABB151EC82A /* Pods-HBWaterFall_Example.debug.xcconfig */,
+				7EFB77045EFA7A234BC9078E564137A6 /* Pods-HBWaterFall_Example.release.xcconfig */,
+			);
+			name = "Pods-HBWaterFall_Example";
+			path = "Target Support Files/Pods-HBWaterFall_Example";
+			sourceTree = "<group>";
+		};
+		BDAC95CB02E54E5F87C401575233C15F /* Pods-HBWaterFall_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA19C00ADED276A620F36A43378D614 /* Pods-HBWaterFall_Tests.modulemap */,
+				3FE5F40598FF4DA327180150E23239B2 /* Pods-HBWaterFall_Tests-acknowledgements.markdown */,
+				816D9B32B4FEE252DB9C1FF1059C81C4 /* Pods-HBWaterFall_Tests-acknowledgements.plist */,
+				AEA58725716DD21F554943BDE6A9FC33 /* Pods-HBWaterFall_Tests-dummy.m */,
+				4807D268239B32C9E5B28AF63076586A /* Pods-HBWaterFall_Tests-Info.plist */,
+				784D978A839CAD9D59ACA125236E9664 /* Pods-HBWaterFall_Tests-umbrella.h */,
+				8C5F6D06AF8ECFBC2A7303EB13DBE67F /* Pods-HBWaterFall_Tests.debug.xcconfig */,
+				47393235268F40524C9B517EDC9E08FE /* Pods-HBWaterFall_Tests.release.xcconfig */,
+			);
+			name = "Pods-HBWaterFall_Tests";
+			path = "Target Support Files/Pods-HBWaterFall_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				97DE06692863735D65516A01D5ACFDDD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E82D72629403E2982EE23A4E27CD1DF4 /* Products */,
+				2B9ADD9D97FC315C7B14C0497062881B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1B17EF2E871B622D46AFECA16EEC5A8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				868366DFDF8E9748573605F2D5A2D353 /* HBWaterFall.podspec */,
+				A12022B0340D4144E1017ED2D4517E1C /* LICENSE */,
+				D8E87C3CD95DE02EDF9AE8C65125A1F2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E82D72629403E2982EE23A4E27CD1DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19A44AB4A4FBECA03078029E066EAF1 /* HBWaterFall */,
+				23F3894802137D629CEDF72BA23C44CF /* Pods-HBWaterFall_Example */,
+				43EF465E4D1173C9AB8A7B491E8FB8A8 /* Pods-HBWaterFall_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		45BFA6FCEA2CA065DEED44D2A2F92859 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D72A5AE108150CCF28FF04F8F51B80A /* Pods-HBWaterFall_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731EF8E4E42B81F3D2010D6C6EAB3796 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3181074511B0D915FA86397BDA1A8C68 /* Pods-HBWaterFall_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4570F5E445E26CE1010E358D38E0F49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E217085E22D7B9C5101885AE582E208 /* HBWaterFall-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4707E2CAD9D89CE3846E94C5A2A88283 /* HBWaterFall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028242AD8B4A5ED20F352D1EA5E987B8 /* Build configuration list for PBXNativeTarget "HBWaterFall" */;
+			buildPhases = (
+				C4570F5E445E26CE1010E358D38E0F49 /* Headers */,
+				9F4FC3642951CD80D3EE742AED6543F6 /* Sources */,
+				2EB72817D79F7131D2575EE898D4E4BE /* Frameworks */,
+				B02C23685D1296421C89B6343E078B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBWaterFall;
+			productName = HBWaterFall;
+			productReference = A19A44AB4A4FBECA03078029E066EAF1 /* HBWaterFall */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA15916DEB8DDEE3B5CFED6FB31ABF42 /* Pods-HBWaterFall_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C961B410C3684D6FA791ED899EEAEB /* Build configuration list for PBXNativeTarget "Pods-HBWaterFall_Example" */;
+			buildPhases = (
+				731EF8E4E42B81F3D2010D6C6EAB3796 /* Headers */,
+				57932AFBD02075427C10DF150285B6FE /* Sources */,
+				8180A0FD70260BCCB77337AFC0890095 /* Frameworks */,
+				CA6C864F3C75422E5D03A525539479F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2BC4FE6E64E78733E5D1DD576A5D5E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-HBWaterFall_Example";
+			productName = Pods_HBWaterFall_Example;
+			productReference = 23F3894802137D629CEDF72BA23C44CF /* Pods-HBWaterFall_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9966BEE2A28984A59E193306D8E0738 /* Pods-HBWaterFall_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09D4A41E9F0AB13BF81C8A3EEA8A3555 /* Build configuration list for PBXNativeTarget "Pods-HBWaterFall_Tests" */;
+			buildPhases = (
+				45BFA6FCEA2CA065DEED44D2A2F92859 /* Headers */,
+				3A88CC4E32E46F2A8864F85F7E52E8FB /* Sources */,
+				CB2628D3B5DEF15E882A61B5BB3DA33A /* Frameworks */,
+				C0A2AF82AFFCCDBD9DA640C7E40FE78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35434F2085DDC1355E20D8E85E3FB73 /* PBXTargetDependency */,
+			);
+			name = "Pods-HBWaterFall_Tests";
+			productName = Pods_HBWaterFall_Tests;
+			productReference = 43EF465E4D1173C9AB8A7B491E8FB8A8 /* Pods-HBWaterFall_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E82D72629403E2982EE23A4E27CD1DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4707E2CAD9D89CE3846E94C5A2A88283 /* HBWaterFall */,
+				BA15916DEB8DDEE3B5CFED6FB31ABF42 /* Pods-HBWaterFall_Example */,
+				F9966BEE2A28984A59E193306D8E0738 /* Pods-HBWaterFall_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B02C23685D1296421C89B6343E078B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A2AF82AFFCCDBD9DA640C7E40FE78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6C864F3C75422E5D03A525539479F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A88CC4E32E46F2A8864F85F7E52E8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A989A0116752807B706A8026AF65CFBB /* Pods-HBWaterFall_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57932AFBD02075427C10DF150285B6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC59E3B620A33274257957B4B0039C /* Pods-HBWaterFall_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4FC3642951CD80D3EE742AED6543F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857D6922743FBA0004DF8C2 /* Delegate.swift in Sources */,
+				D857D6962743FBD1004DF8C2 /* HBWaterFallView.swift in Sources */,
+				39BA1DFA2C87D9009FE9F64C7C7BD01F /* HBWaterFall-dummy.m in Sources */,
+				D857D6942743FBBD004DF8C2 /* HBWaterFallLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2BC4FE6E64E78733E5D1DD576A5D5E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HBWaterFall;
+			target = 4707E2CAD9D89CE3846E94C5A2A88283 /* HBWaterFall */;
+			targetProxy = CBC30C6C58ADB3578AD8D5AFAB5CCC3B /* PBXContainerItemProxy */;
+		};
+		F35434F2085DDC1355E20D8E85E3FB73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HBWaterFall_Example";
+			target = BA15916DEB8DDEE3B5CFED6FB31ABF42 /* Pods-HBWaterFall_Example */;
+			targetProxy = A443881E0AB2BB84508C6AD0E35386D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14CAAB14E5E16CF8EA98AC693D35A46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468028F15DF1569A601E7DADAF611C2E /* HBWaterFall.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBWaterFall/HBWaterFall-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBWaterFall/HBWaterFall-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBWaterFall/HBWaterFall.modulemap";
+				PRODUCT_MODULE_NAME = HBWaterFall;
+				PRODUCT_NAME = HBWaterFall;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3059BEC261CC9ADD39318E3EAC3F6727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5278D66312B21EA3E124C9E6E1860328 /* HBWaterFall.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBWaterFall/HBWaterFall-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBWaterFall/HBWaterFall-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBWaterFall/HBWaterFall.modulemap";
+				PRODUCT_MODULE_NAME = HBWaterFall;
+				PRODUCT_NAME = HBWaterFall;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F9D81287F981272876B7B885A912CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5F6D06AF8ECFBC2A7303EB13DBE67F /* Pods-HBWaterFall_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBWaterFall_Tests/Pods-HBWaterFall_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBWaterFall_Tests/Pods-HBWaterFall_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D84990A5A956E0D4744B9AE56B12C112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EB1C9A990445496FACAABB151EC82A /* Pods-HBWaterFall_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBWaterFall_Example/Pods-HBWaterFall_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBWaterFall_Example/Pods-HBWaterFall_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB58309AF25D705F0B15797F6B51E5A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47393235268F40524C9B517EDC9E08FE /* Pods-HBWaterFall_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBWaterFall_Tests/Pods-HBWaterFall_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBWaterFall_Tests/Pods-HBWaterFall_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC780497ECA4340F1EB916FA2E6A6101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFB77045EFA7A234BC9078E564137A6 /* Pods-HBWaterFall_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBWaterFall_Example/Pods-HBWaterFall_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBWaterFall_Example/Pods-HBWaterFall_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028242AD8B4A5ED20F352D1EA5E987B8 /* Build configuration list for PBXNativeTarget "HBWaterFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3059BEC261CC9ADD39318E3EAC3F6727 /* Debug */,
+				14CAAB14E5E16CF8EA98AC693D35A46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09D4A41E9F0AB13BF81C8A3EEA8A3555 /* Build configuration list for PBXNativeTarget "Pods-HBWaterFall_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9D81287F981272876B7B885A912CCB /* Debug */,
+				EB58309AF25D705F0B15797F6B51E5A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C961B410C3684D6FA791ED899EEAEB /* Build configuration list for PBXNativeTarget "Pods-HBWaterFall_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84990A5A956E0D4744B9AE56B12C112 /* Debug */,
+				FC780497ECA4340F1EB916FA2E6A6101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
