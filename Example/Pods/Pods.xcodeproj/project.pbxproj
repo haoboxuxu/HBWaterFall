@@ -17,6 +17,7 @@
 		D857D6922743FBA0004DF8C2 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857D6912743FBA0004DF8C2 /* Delegate.swift */; };
 		D857D6942743FBBD004DF8C2 /* HBWaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857D6932743FBBD004DF8C2 /* HBWaterFallLayout.swift */; };
 		D857D6962743FBD1004DF8C2 /* HBWaterFallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857D6952743FBD1004DF8C2 /* HBWaterFallView.swift */; };
+		D857D69D274404B7004DF8C2 /* demo_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = D857D69C274404B7004DF8C2 /* demo_1.gif */; };
 		EF13054FF1B5C5A22CA4506DB6CAF58C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FC74677FB8DD882F3915D5E31F41A771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 		D857D6912743FBA0004DF8C2 /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = HBWaterFall/Classes/Delegate.swift; sourceTree = "<group>"; };
 		D857D6932743FBBD004DF8C2 /* HBWaterFallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HBWaterFallLayout.swift; path = HBWaterFall/Classes/HBWaterFallLayout.swift; sourceTree = "<group>"; };
 		D857D6952743FBD1004DF8C2 /* HBWaterFallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HBWaterFallView.swift; path = HBWaterFall/Classes/HBWaterFallView.swift; sourceTree = "<group>"; };
+		D857D69C274404B7004DF8C2 /* demo_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo_1.gif; sourceTree = "<group>"; };
 		D8E87C3CD95DE02EDF9AE8C65125A1F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F0029E65112D289DF037084BB28D4CA4 /* Pods-HBWaterFall_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBWaterFall_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,6 +206,7 @@
 		D1B17EF2E871B622D46AFECA16EEC5A8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				D857D69B274404B7004DF8C2 /* demoimages */,
 				868366DFDF8E9748573605F2D5A2D353 /* HBWaterFall.podspec */,
 				A12022B0340D4144E1017ED2D4517E1C /* LICENSE */,
 				D8E87C3CD95DE02EDF9AE8C65125A1F2 /* README.md */,
@@ -217,6 +220,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D857D69B274404B7004DF8C2 /* demoimages */ = {
+			isa = PBXGroup;
+			children = (
+				D857D69C274404B7004DF8C2 /* demo_1.gif */,
+			);
+			path = demoimages;
 			sourceTree = "<group>";
 		};
 		E82D72629403E2982EE23A4E27CD1DF4 /* Products */ = {
@@ -349,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D857D69D274404B7004DF8C2 /* demo_1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
